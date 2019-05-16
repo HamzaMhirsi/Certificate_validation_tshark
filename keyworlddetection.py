@@ -1,6 +1,6 @@
 pstring='Arizona,Scottsdale,GoDaddy.com, Inc.,http://certs.godaddy.com/repository/,Go Daddy Secure Certificate Authority - G2,Domain Control Validated'
-ustring='miNKtmproxy,mitmproxy,217.29.220.255,mitmproxy,mitmproxy,mitmproxy,mitmproxy'
-key_world=['NK','IRN','RU']
+ustring='mitmproxy,mitmproxy,5.5.5.5,mitmproxy,mitmproxy,mitmproxy,mitmproxy'
+key_world=['IOC','emails','word']
 string=pstring+ustring
 for i in key_world:
 	if i in string:
