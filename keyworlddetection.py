@@ -4,5 +4,5 @@ key_world=['IOC','emails','word']
 string=pstring+ustring
 for i in key_world:
 	if i in string:
-		print 'we detected "' + i + '" the certificate is from North-Korea, Iran or Russia'
+		print 'we detected "' + i + '" the certificate is compromised'
 		
